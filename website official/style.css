@@ -1,0 +1,201 @@
+* {
+    list-style: none;
+
+}
+
+.container-fluid {
+    background: #CBE7DF;
+
+}
+
+.logo a img {
+    width: 50px;
+    position: relative;
+    bottom: -19px;
+
+}
+
+.links ul a li {
+    color: teal;
+}
+
+.links ul a {
+    text-decoration: none;
+}
+
+button.prev {
+    top: 212px;
+}
+
+.links ul {
+    display: flex;
+    margin-left: 60rem;
+    justify-content: space-around;
+    font-size: 20px;
+    position: relative;
+    top: -71px;
+}
+
+ul a li {
+    text-align: center;
+}
+
+.web-name {
+    position: relative;
+    bottom: 34px;
+    left: 95px;
+    right: 0;
+    width: 0;
+}
+
+.links {
+    height: 0;
+}
+
+.anand {
+    height: 39rem;
+    width: 100%;
+}
+
+.rear-pic {
+    height: 29.3rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.web-name h2 {
+    width: 391px;
+}
+
+.web-name a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+footer a{
+    color: black;
+}
+footer{
+    display: none;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 375px) {
+    .links ul {
+        display: none;
+
+    }
+
+    .web-name h2 {
+        width: 20px;
+    }
+
+    div.icon {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 3rem;
+    }
+
+    ul {
+        z-index: 1;
+    }
+
+    .anand {
+        height: auto;
+    }
+
+    button.prev {
+        top: 0;
+    }
+
+    div.links ul {
+        position: absolute;
+        right: 0px;
+        top: 93px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        left: -991.05px;
+        bottom: 478.4px;
+    }
+
+    footer.mobile {
+        display: flex;
+        justify-content: space-around;
+        font-size: 48px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        box-shadow: 0 0 5px grey;
+        width: 100%;
+        background: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 500px) {
+    div.icon {
+        display: block;
+        position: absolute;
+        right: 43px;
+        top: 2rem;
+        z-index: 1;
+    }
+
+    ul {
+        z-index: 1;
+    }
+
+    .anand {
+        height: auto;
+    }
+
+    button.prev {
+        top: 0;
+    }
+
+    div.links ul {
+        position: absolute;
+        right: 0px;
+        top: 93px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        left: -991.05px;
+        bottom: 478.4px;
+    }
+    footer.mobile {
+        display: flex;
+        justify-content: space-around;
+        font-size: 48px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        box-shadow: 0 0 5px grey;
+        width: 100%;
+        background: #fff;
+    }
+    .card{
+        width:20rem;
+    }
+
+}
+
+@media only screen and (max-width:400px) and (min-width: 374px) {
+    .icon {
+        margin-right: -27px;
+        margin-top: -7px;
+    }
+}
